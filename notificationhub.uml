@@ -3,83 +3,85 @@
   <ID>JAVA</ID>
   <OriginalElement>com.trendyol.notificationhub</OriginalElement>
   <nodes>
-    <node x="745.5" y="0.0">com.trendyol.notificationhub.packages.Package</node>
     <node x="0.0" y="355.0">com.trendyol.notificationhub.user.User</node>
-    <node x="1392.0" y="377.5">com.trendyol.notificationhub.packages.SmsPackageFixed</node>
+    <node x="753.5" y="0.0">com.trendyol.notificationhub.packages.Package</node>
+    <node x="976.0" y="377.5">com.trendyol.notificationhub.packages.SmsPackageFixed</node>
     <node x="202.0" y="245.0">com.trendyol.notificationhub.Company</node>
-    <node x="740.0" y="377.5">com.trendyol.notificationhub.packages.EmailPackageFlexible</node>
-    <node x="280.12196969696964" y="11.0">com.trendyol.notificationhub.enums.Language</node>
-    <node x="66.16363636363633" y="55.5">com.trendyol.notificationhub.user.IUser</node>
-    <node x="585.1696969696968" y="637.0">com.trendyol.notificationhub.NotificationHub</node>
-    <node x="536.0" y="377.5">com.trendyol.notificationhub.packages.EmailPackageFixed</node>
-    <node x="968.0" y="389.0">com.trendyol.notificationhub.exceptions.BlackListException</node>
-    <node x="1180.0" y="377.5">com.trendyol.notificationhub.packages.SmsPackageFlexible</node>
+    <node x="748.0" y="377.5">com.trendyol.notificationhub.packages.EmailPackageFlexible</node>
+    <node x="280.39469696969695" y="11.0">com.trendyol.notificationhub.enums.Language</node>
+    <node x="795.6242424242425" y="637.0">com.trendyol.notificationhub.NotificationHub</node>
+    <node x="66.43636363636358" y="55.5">com.trendyol.notificationhub.user.IUser</node>
+    <node x="1164.0" y="377.5">com.trendyol.notificationhub.packages.EmailPackageFixed</node>
+    <node x="1368.0" y="389.0">com.trendyol.notificationhub.exceptions.BlackListException</node>
+    <node x="536.0" y="377.5">com.trendyol.notificationhub.packages.SmsPackageFlexible</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.trendyol.notificationhub.NotificationHub" target="com.trendyol.notificationhub.Company">
-      <point x="-57.999999999999886" y="-27.0" />
-      <point x="643.169696969697" y="612.0" />
+      <point x="-58.0" y="-27.0" />
+      <point x="853.6242424242425" y="612.0" />
       <point x="359.0" y="612.0" />
       <point x="0.0" y="171.0" />
     </edge>
     <edge source="com.trendyol.notificationhub.packages.EmailPackageFlexible" target="com.trendyol.notificationhub.packages.Package">
       <point x="-52.0" y="-38.5" />
-      <point x="792.0" y="225.0" />
-      <point x="834.1500000000001" y="225.0" />
+      <point x="800.0" y="225.0" />
+      <point x="842.1500000000001" y="225.0" />
       <point x="-9.850000000000023" y="82.5" />
     </edge>
     <edge source="com.trendyol.notificationhub.Company" target="com.trendyol.notificationhub.user.IUser">
       <point x="-130.83333333333337" y="-171.0" />
       <point x="228.16666666666663" y="225.0" />
-      <point x="157.16363636363633" y="225.0" />
+      <point x="157.43636363636358" y="225.0" />
       <point x="0.0" y="27.0" />
     </edge>
     <edge source="com.trendyol.notificationhub.packages.EmailPackageFixed" target="com.trendyol.notificationhub.packages.Package">
       <point x="46.0" y="-38.5" />
-      <point x="674.0" y="215.0" />
-      <point x="814.45" y="215.0" />
-      <point x="-29.549999999999955" y="82.5" />
+      <point x="1302.0" y="185.0" />
+      <point x="940.6499999999999" y="185.0" />
+      <point x="88.64999999999986" y="82.5" />
     </edge>
     <edge source="com.trendyol.notificationhub.Company" target="com.trendyol.notificationhub.packages.Package">
       <point x="78.5" y="-171.0" />
       <point x="437.5" y="185.0" />
-      <point x="755.3500000000001" y="185.0" />
+      <point x="763.3500000000001" y="185.0" />
       <point x="-88.64999999999998" y="82.5" />
     </edge>
     <edge source="com.trendyol.notificationhub.Company" target="com.trendyol.notificationhub.enums.Language">
       <point x="-26.166666666666686" y="-171.0" />
       <point x="332.8333333333333" y="225.0" />
-      <point x="326.37196969696964" y="225.0" />
+      <point x="326.64469696969695" y="225.0" />
       <point x="-46.25" y="71.5" />
     </edge>
     <edge source="com.trendyol.notificationhub.user.User" target="com.trendyol.notificationhub.user.IUser">
       <point x="0.0" y="-61.0" />
       <point x="91.0" y="225.0" />
-      <point x="96.4969696969697" y="225.0" />
+      <point x="96.76969696969695" y="225.0" />
       <point x="-60.66666666666666" y="27.0" />
     </edge>
     <edge source="com.trendyol.notificationhub.packages.SmsPackageFixed" target="com.trendyol.notificationhub.packages.Package">
       <point x="42.0" y="-38.5" />
-      <point x="1518.0" y="185.0" />
-      <point x="932.6499999999999" y="185.0" />
-      <point x="88.64999999999986" y="82.5" />
+      <point x="1102.0" y="205.0" />
+      <point x="901.25" y="205.0" />
+      <point x="49.25" y="82.5" />
     </edge>
     <edge source="com.trendyol.notificationhub.packages.SmsPackageFlexible" target="com.trendyol.notificationhub.packages.Package">
       <point x="-48.0" y="-38.5" />
-      <point x="1228.0" y="215.0" />
-      <point x="873.55" y="215.0" />
-      <point x="29.549999999999955" y="82.5" />
+      <point x="584.0" y="205.0" />
+      <point x="802.75" y="205.0" />
+      <point x="-49.25" y="82.5" />
     </edge>
     <edge source="com.trendyol.notificationhub.NotificationHub" target="com.trendyol.notificationhub.exceptions.BlackListException">
-      <point x="58.000000000000114" y="-27.0" />
-      <point x="759.169696969697" y="612.0" />
-      <point x="1064.0" y="612.0" />
+      <point x="58.0" y="-27.0" />
+      <point x="969.6242424242425" y="612.0" />
+      <point x="1464.0" y="612.0" />
       <point x="0.0" y="27.0" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="780.0" y="345.5" />
-  <SelectedNodes />
+  <SelectedNodes>
+    <node>com.trendyol.notificationhub.user.User</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
